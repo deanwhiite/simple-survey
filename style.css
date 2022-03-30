@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 
 :root {
   --color-white: #f3f3f3;
-
 }
 
 *,
@@ -12,7 +11,7 @@
 }
 
 body {
-  font-family: 'Krona One', sans-serif;
+  font-family: "Krona One", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
@@ -22,7 +21,7 @@ body {
 
 /* mobile friendly alternative to using background-attachment: fixed */
 body::before {
-  content: '';
+  content: "";
   position: fixed;
   top: 0;
   left: 0;
@@ -55,7 +54,6 @@ label {
   align-items: center;
   font-size: 1.125rem;
   margin-bottom: 0.5rem;
-  
 }
 
 input,
@@ -66,7 +64,6 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-  
 }
 
 button {
@@ -98,7 +95,6 @@ button {
 .description {
   font-style: bold;
   font-weight: 200;
- 
 }
 
 .clue {
